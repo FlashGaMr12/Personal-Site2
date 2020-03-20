@@ -1,0 +1,213 @@
+  /************************************TAG SELECTORS*****************************/
+body{
+margin: 0;
+text-align: center;
+
+}
+
+
+h1{
+margin: 50px auto 0 auto;
+font-family: 'Montserrat', sans-serif;
+font-size: 4.90rem;  /* 100% font size = 16px */
+color: #66BFBF;
+line-height: 1;
+
+
+}
+
+h2{
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+color: #66BFBF;
+
+
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+color: #11999E;
+font-weight: bold;
+
+}
+
+p{
+font-family: 'Baloo 2', cursive;
+
+font-size: 1.5rem;
+line-height: 2;
+}
+
+a{
+color: #11999E;
+font-family: verdana;
+font-size: 1.5rem;
+font-weight: bold;
+text-decoration: none;
+line-height: 2;
+padding: 0 10px 0 10px;
+
+
+
+}
+
+a:hover{
+color: #EAF6F6;
+}
+
+hr{
+  background-color: none;
+border-style: none;
+border-top-style: dotted;
+border-color: #EAF6F6;
+border-width: 8px;
+width: 5%;
+
+
+}
+
+
+/********************************CLASS SELECTOR********************************/
+.Top-Container{
+background-color:#EAF6F6;
+padding:20px;
+font-family: 'Liu Jian Mao Cao', cursive;
+
+
+}
+
+.Middle-Container{
+
+}
+
+.Bottom-Container{
+background-color: #66BFBF;
+padding-bottom: 20px;
+
+
+}
+
+
+
+
+.bottom-cloud{
+  position: absolute;
+  left: 460px;
+
+}
+
+.top-cloud{
+display: inline-block;
+position: absolute;
+right: 500px;
+top: 29px;
+
+}
+
+.mountain{
+  margin-top: 0;
+  height: 300px;
+  width: 600px;
+
+}
+
+.head1{
+
+font-family:  'Liu Jian Mao Cao', cursive;
+
+
+}
+
+.skill-row{
+width: 50%;
+margin: 100px auto 100px auto;
+text-align: left;
+font-weight: normal;
+
+}
+
+.Web-dev{
+width: 25%;
+float: left;
+margin: auto 30px auto auto;
+}
+
+.Swimming{
+  width: 25%;
+  float: right;
+  margin: auto 30px auto auto;
+
+
+}
+
+.SK-web-dev{
+/*clear:left; to remove float for specefic text or content. */
+  line-height: 2;
+}
+
+
+
+
+.trainee{
+font-weight: normal;
+
+}
+
+.signature{
+  padding-top: 25px;
+
+  color: #EAF6F6;
+
+}
+
+.footer-link{
+}
+
+.intro{
+
+  width: 50%;
+  margin:auto;
+  padding-bottom: 45px;
+}
+
+.hello{
+padding-bottom: 20px;
+
+}
+
+.BUTTON {
+	box-shadow: 0px 1px 0px 0px #000000;
+	background:linear-gradient(to bottom, #0b7fbd 5%, #108f8f 100%);
+	background-color:#0b7fbd;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:18px;
+	padding:16px 29px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+  margin-bottom: 40px;
+}
+.BUTTON:hover {
+	background:linear-gradient(to bottom, #108f8f 5%, #0b7fbd 100%);
+	background-color:#108f8f;
+}
+.BUTTON:active {
+	position:relative;
+	top:1px;
+}
+
+.buttom-msg{
+
+color: #108f8f;
+}
+
+
+
+
+
+
+/********************************ID SELECTOR***********************************/
